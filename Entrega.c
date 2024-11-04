@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX 100
+#define MAX 1000000
 #define BLOCO 100
 
 void preencher(int x[]);
