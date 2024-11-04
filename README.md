@@ -1,1 +1,3 @@
 # Opera-o-de-Busca
+
+A Busca Sequencial Indexada é uma busca otimizada para listas ordenadas. Ela divide a lista em blocos e cria índices que apontam para o início de cada um dos blocos. Primeiro, ela divide a lista em blocos com tamanhos fixos. Depois, cria o índice a partir do primeiro elemento de cada bloco. Por último, busca a chave consultando os índices para identificar em qual bloco o valor pode estar. Em seguida, dentro do próprio bloco, ela realiza a busca pelo valor desejado.
